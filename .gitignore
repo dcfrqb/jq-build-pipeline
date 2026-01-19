@@ -31,3 +31,6 @@ coverage_report.txt
 
 # ZIP архивы (будут создаваться для отправки)
 *.zip
+
+# macOS
+.DS_Store
