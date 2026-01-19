@@ -1,0 +1,33 @@
+# Артефакты сборки
+*.deb
+*.rpm
+build_report_*.txt
+coverage_*.txt
+coverage_previous.txt
+coverage_percent.txt
+build_number.txt
+
+# Директории с артефактами
+artifacts/
+reports/
+
+# Исходники проектов (клонируются при сборке)
+jq-src-release/
+jq-src-debug/
+jq-src-coverage/
+
+# Временные файлы
+*.log
+*.tmp
+*.o
+*.a
+*.gcda
+*.gcno
+coverage.info
+coverage_report.txt
+
+# Docker
+.dockerignore
+
+# ZIP архивы (будут создаваться для отправки)
+*.zip
